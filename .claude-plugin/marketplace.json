@@ -1,36 +1,19 @@
 {
-  "name": "Gemini CLI Assistant Marketplace",
+  "name": "gemini-cli-assistant-marketplace",
   "version": "1.0.0",
   "description": "Plugin marketplace for Gemini CLI integration with Claude Code",
+  "owner": "TIimLin",
   "plugins": [
     {
-      "id": "gemini-cli-assistant",
-      "name": "Gemini CLI Assistant",
+      "name": "gemini-cli-assistant",
       "version": "1.0.0",
       "description": "Leverage Gemini's million-token context window for large-scale codebase analysis. Overcome Claude Code's context limitations with intelligent agent-based architecture.",
-      "author": "TIimLin",
+      "author": {
+        "name": "TIimLin",
+        "url": "https://github.com/TIimLin"
+      },
       "repository": "https://github.com/TIimLin/gemini-cli-assistant",
-      "categories": ["analysis", "ai", "tools"],
-      "tags": ["gemini", "ai", "context", "analysis", "codebase"],
-      "source": {
-        "type": "git",
-        "url": "https://github.com/TIimLin/gemini-cli-assistant.git"
-      },
-      "requirements": {
-        "gemini-cli": {
-          "description": "Gemini CLI must be installed globally",
-          "install": "npm install -g @google/gemini-cli",
-          "verify": "which gemini"
-        }
-      },
-      "setup": {
-        "instructions": [
-          "Install Gemini CLI: npm install -g @google/gemini-cli",
-          "Authenticate: gemini auth login OR export GEMINI_API_KEY='your-key'",
-          "Verify: ./verify-setup.sh",
-          "Restart Claude Code"
-        ]
-      }
+      "source": "https://github.com/TIimLin/gemini-cli-assistant.git"
     }
   ]
 }
