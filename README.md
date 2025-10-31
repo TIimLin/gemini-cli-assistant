@@ -63,21 +63,35 @@ source ~/.bashrc
 
 ## Installation
 
-### Option 1: Clone to User-Level Plugins
+### Option 1: Marketplace (推薦！一鍵安裝) ⭐
+
+在 Claude Code 中：
+
+```
+1. 輸入: /plugin
+2. 選擇: 3. Add marketplace
+3. 輸入: YOUR_USERNAME/gemini-cli-assistant
+4. 選擇: 1. Browse and install plugins
+5. 安裝 Gemini CLI Assistant
+```
+
+詳細步驟請看 [MARKETPLACE_INSTALL.md](MARKETPLACE_INSTALL.md)
+
+### Option 2: Git Clone (適合開發者)
+
+```bash
+cd ~/.config/claude-code/plugins/
+git clone https://github.com/YOUR_USERNAME/gemini-cli-assistant.git
+```
+
+### Option 3: 手動複製 (快速測試)
 
 ```bash
 # Clone or copy this plugin to your Claude Code plugins directory
 cp -r gemini-cli-assistant ~/.config/claude-code/plugins/
 ```
 
-### Option 2: Git Clone (Recommended for Updates)
-
-```bash
-cd ~/.config/claude-code/plugins/
-git clone <repository-url> gemini-cli-assistant
-```
-
-### Option 3: Symlink (For Development)
+### Option 4: Symlink (本地開發)
 
 ```bash
 ln -s /path/to/gemini-cli-assistant ~/.config/claude-code/plugins/gemini-cli-assistant
