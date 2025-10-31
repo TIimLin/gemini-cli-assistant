@@ -70,7 +70,7 @@ source ~/.bashrc
 ```
 1. 輸入: /plugin
 2. 選擇: 3. Add marketplace
-3. 輸入: YOUR_USERNAME/gemini-cli-assistant
+3. 輸入: TIimLin/gemini-cli-assistant
 4. 選擇: 1. Browse and install plugins
 5. 安裝 Gemini CLI Assistant
 ```
@@ -81,7 +81,7 @@ source ~/.bashrc
 
 ```bash
 cd ~/.config/claude-code/plugins/
-git clone https://github.com/YOUR_USERNAME/gemini-cli-assistant.git
+git clone https://github.com/TIimLin/gemini-cli-assistant.git
 ```
 
 ### Option 3: 手動複製 (快速測試)

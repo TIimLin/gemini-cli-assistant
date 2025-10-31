@@ -8,13 +8,13 @@
       "name": "Gemini CLI Assistant",
       "version": "1.0.0",
       "description": "Leverage Gemini's million-token context window for large-scale codebase analysis. Overcome Claude Code's context limitations with intelligent agent-based architecture.",
-      "author": "Your Name",
-      "repository": "https://github.com/YOUR_USERNAME/gemini-cli-assistant",
+      "author": "TIimLin",
+      "repository": "https://github.com/TIimLin/gemini-cli-assistant",
       "categories": ["analysis", "ai", "tools"],
       "tags": ["gemini", "ai", "context", "analysis", "codebase"],
       "source": {
         "type": "git",
-        "url": "https://github.com/YOUR_USERNAME/gemini-cli-assistant.git"
+        "url": "https://github.com/TIimLin/gemini-cli-assistant.git"
       },
       "requirements": {
         "gemini-cli": {
