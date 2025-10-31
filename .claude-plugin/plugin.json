@@ -1,0 +1,14 @@
+{
+  "name": "gemini-cli-assistant",
+  "version": "1.0.0",
+  "description": "Gemini CLI integration for large context analysis, enabling Claude Code to leverage Gemini's million-token context window for codebase-wide analysis",
+  "author": "Your Name",
+  "agents": [
+    {
+      "id": "gemini-analyzer",
+      "name": "Gemini Code Analyzer",
+      "description": "Uses Gemini CLI to analyze large codebases or files that exceed Claude Code's context window. Supports single file analysis, entire project overview, feature verification, and multi-file analysis.",
+      "file": "agents/gemini-analyzer.md"
+    }
+  ]
+}
