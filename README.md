@@ -20,10 +20,10 @@ Claude Code has context window limitations that can make analyzing large files o
 
 ```bash
 # Using npm
-npm install -g @google/generative-ai-cli
+npm install -g @google/gemini-cli
 
 # Or using yarn
-yarn global add @google/generative-ai-cli
+yarn global add @google/gemini-cli
 ```
 
 ### Verify Installation
@@ -268,7 +268,7 @@ Agent: Analyzing both implementations...
 which gemini
 
 # If not found, install
-npm install -g @google/generative-ai-cli
+npm install -g @google/gemini-cli
 ```
 
 ### Authentication Issues

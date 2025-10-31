@@ -10,7 +10,7 @@ which gemini
 
 If not installed:
 ```bash
-npm install -g @google/generative-ai-cli
+npm install -g @google/gemini-cli
 ```
 
 ### Step 2: Authentication (Choose One)
