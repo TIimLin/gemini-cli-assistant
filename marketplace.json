@@ -1,0 +1,36 @@
+{
+  "name": "Gemini CLI Assistant Marketplace",
+  "version": "1.0.0",
+  "description": "Plugin marketplace for Gemini CLI integration with Claude Code",
+  "plugins": [
+    {
+      "id": "gemini-cli-assistant",
+      "name": "Gemini CLI Assistant",
+      "version": "1.0.0",
+      "description": "Leverage Gemini's million-token context window for large-scale codebase analysis. Overcome Claude Code's context limitations with intelligent agent-based architecture.",
+      "author": "Your Name",
+      "repository": "https://github.com/YOUR_USERNAME/gemini-cli-assistant",
+      "categories": ["analysis", "ai", "tools"],
+      "tags": ["gemini", "ai", "context", "analysis", "codebase"],
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YOUR_USERNAME/gemini-cli-assistant.git"
+      },
+      "requirements": {
+        "gemini-cli": {
+          "description": "Gemini CLI must be installed globally",
+          "install": "npm install -g @google/gemini-cli",
+          "verify": "which gemini"
+        }
+      },
+      "setup": {
+        "instructions": [
+          "Install Gemini CLI: npm install -g @google/gemini-cli",
+          "Authenticate: gemini auth login OR export GEMINI_API_KEY='your-key'",
+          "Verify: ./verify-setup.sh",
+          "Restart Claude Code"
+        ]
+      }
+    }
+  ]
+}
